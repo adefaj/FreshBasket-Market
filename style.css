@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.logo-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.logo-icon {
+  color: #16a34a;
+  font-size: 30px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-items a {
+  text-decoration: none;
+  color: #6b7280;
+}
+.sign-in-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #16a34a;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+.hero-container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 50%;
+}
+.hero-text-tag {
+  color: #4b5563;
+  background: #e5e7eb;
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: small;
+}
+.hero-heading {
+  font-size: 50px;
+}
+.hero-paragraph {
+  color: #1a2636;
+}
+.hero-lists {
+  list-style: none;
+}
+.hero-list {
+  color: #16a34a;
+}
+.outline-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: 1px solid #e5e7eb;
+}
+.hero-btn-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.hero-img {
+  width: 400px;
+  height: 300px;
+}
+
+/* How it works */
+.how-it-works {
+  background-color: #e2f0f0;
+  padding: 150px 50px;
+}
+.how-it-works-title h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.how-it-works-title p {
+  color: #6b7280;
+  font-size: small;
+  text-align: center;
+}
+.how-it-works-cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.card {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.card span {
+  background-color: #e2f0f0;
+  width: fit-content;
+  padding: 5px 6px;
+  border-radius: 5px;
+}
+.card span i {
+  color: #16a34a;
+}
+.card h4 {
+  font-weight: 600;
+}
+.card p {
+  color: #6b7280;
+  font-size: 14px;
+}
+.card ul {
+  color: #6b7280;
+  font-size: 14px;
+  list-style: none;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* Everything you need it one Place */
+.everything-you-need {
+  background-color: #f9f9f9;
+  padding: 100px 50px;
+}
+.everything-you-need .card {
+  border: 1px solid #e5e7eb;
+}
+
+/* Ready to simplfy your grocery shopping? */
+.ready-to-simplify {
+  background-color: #e2f0f0;
+  padding: 150px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ready-to-simplify-container {
+  padding: 40px 100px;
+  /* width: 260px; */
+  background-color: #16a34a;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ready-to-simplify-container h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.ready-to-simplify-container p {
+  font-size: 15px;
+}
+.ready-to-simplify-container a {
+  text-decoration: none;
+  color: #16a34a;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9f9;
+  color: #6b7280;
+  padding: 50px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
