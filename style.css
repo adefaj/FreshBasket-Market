@@ -3,29 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
+  font-size: 62.5%; /* 1rem=10px */
   font-family: "poppins", sans-serif;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 2rem 5rem;
   border-bottom: 1px solid #e5e7eb;
 }
 .logo-wrapper {
   display: flex;
-  gap: 5px;
+  gap: 0.5rem;
   align-items: center;
 }
 .logo-icon {
   color: #16a34a;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .nav-items {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 .nav-items a {
   text-decoration: none;
@@ -35,11 +36,11 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #16a34a;
-  padding: 10px 15px;
-  border-radius: 7px;
+  padding: 1rem 1.5rem;
+  border-radius: 0.7rem;
 }
 .hero-container {
-  padding: 50px;
+  padding: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -47,19 +48,19 @@ body {
 .hero-content {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1.5rem;
   flex-basis: 50%;
 }
 .hero-text-tag {
   color: #4b5563;
   background: #e5e7eb;
   width: fit-content;
-  padding: 2px 10px;
-  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
   font-size: small;
 }
 .hero-heading {
-  font-size: 50px;
+  font-size: 5rem;
 }
 .hero-paragraph {
   color: #1a2636;
@@ -74,27 +75,27 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #000;
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   border-radius: 7px;
   border: 1px solid #e5e7eb;
 }
 .hero-btn-wrapper {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
 .hero-img {
-  width: 400px;
-  height: 300px;
+  width: 40rem;
+  height: 30rem;
 }
 
 /* How it works */
 .how-it-works {
   background-color: #e2f0f0;
-  padding: 150px 50px;
+  padding: 15rem 5rem;
 }
 .how-it-works-title h3 {
   text-align: center;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 .how-it-works-title p {
@@ -104,22 +105,22 @@ body {
 }
 .how-it-works-cards {
   display: flex;
-  gap: 30px;
-  margin-top: 40px;
+  gap: 3rem;
+  margin-top: 4rem;
 }
 .card {
   background-color: #fff;
-  padding: 30px;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border-radius: 10px;
+  gap: 1rem;
+  border-radius: 1rem;
 }
 .card span {
   background-color: #e2f0f0;
   width: fit-content;
-  padding: 5px 6px;
-  border-radius: 5px;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
 }
 .card span i {
   color: #16a34a;
@@ -129,58 +130,58 @@ body {
 }
 .card p {
   color: #6b7280;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 .card ul {
   color: #6b7280;
-  font-size: 14px;
+  font-size: 1.4rem;
   list-style: none;
-  font-size: 13px;
+  font-size: 1.3rem;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 /* Everything you need it one Place */
 .everything-you-need {
   background-color: #f9f9f9;
-  padding: 100px 50px;
+  padding: 10rem 5rem;
 }
 .everything-you-need .card {
-  border: 1px solid #e5e7eb;
+  border: 0.1rem solid #e5e7eb;
 }
 
 /* Ready to simplfy your grocery shopping? */
 .ready-to-simplify {
   background-color: #e2f0f0;
-  padding: 150px 50px;
+  padding: 15rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .ready-to-simplify-container {
-  padding: 40px 100px;
-  /* width: 260px; */
+  padding: 4rem 10rem;
+  /* width: 26rem; */
   background-color: #16a34a;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
 }
 .ready-to-simplify-container h3 {
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
 }
 .ready-to-simplify-container p {
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .ready-to-simplify-container a {
   text-decoration: none;
   color: #16a34a;
   background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 1rem;
   width: fit-content;
 }
 
@@ -188,8 +189,8 @@ body {
 .footer {
   background-color: #f9f9f9;
   color: #6b7280;
-  padding: 50px;
-  font-size: 11px;
+  padding: 5rem;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
